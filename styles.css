@@ -13,3 +13,7 @@ img#profpic {
   width: 225px;
   border-radius: 115px;
 }
+
+span {
+  position: absolute;
+}
