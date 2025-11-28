@@ -1,0 +1,65 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoTitle {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+}
+
+#parent {
+  position: relative;
+}
+
+.homePageImage {
+  height: 300px;
+  width: 100%;
+}
+
+#searchInput {
+  width: 50%;
+  border-radius: 20px;
+  background-color: aliceblue;
+  position: absolute;
+  left: 20%;
+  top: 150px;
+}
+body {
+  background-color: aliceblue;
+}
+#locations {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+#locations img {
+  width: 250px;
+  height: 300px;
+  padding-left: 30px;
+}
+
+#locations img:hover {
+  width: 265px;
+  height: 315px;
+}
+#footer {
+  position: fixed;
+}
+#locations div {
+  position: relative;
+}
+.locationTitle {
+  position: absolute;
+  left: 30%;
+  bottom: 20%;
+  font-size: 25px;
+  color: honeydew;
+  font-family: monospace;
+}
+#homeBtn:hover,
+#exploreBtn:hover {
+  border: 2px solid aliceblue;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
